@@ -38,6 +38,7 @@ namespace HairSalon.Controllers
         public ActionResult Create(Client client)
         {
             // ViewBag.StylistId = new SelectList(_db.Stylists, "StylistId", "Name");
+            // if(client.)
             _db.Clients.Add(client);
             _db.SaveChanges();
             return RedirectToAction("Index", "Stylists");

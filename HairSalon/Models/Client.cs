@@ -14,6 +14,8 @@ namespace HairSalon.Models
 
         public string HairCareNotes { get; set; }
 
+        public int StylistId { get; set; }
+
         public Stylist Stylist { get; set; }
 
         // public List<Client> Clients { get; set; }
