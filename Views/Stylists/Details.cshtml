@@ -8,9 +8,9 @@
 @* //clients of stylist *@
 <h2>Stylist details</h2>
 <hr />
-<h3>@Html.DisplayNameFor(model.Name): @Html.DisplayFor(model => model.Name)</h3>
+<h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)</h3>
 
-@if (@Model.Clients.Count == 0)
+@if (Model.Clients.Count == 0)
 {
     <h3>No Clients have been added to this Stylist yet!</h3>
 }
