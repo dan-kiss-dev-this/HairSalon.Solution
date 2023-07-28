@@ -8,7 +8,7 @@ namespace HairSalon.Models
 
         public string Name { get; set; }
 
-        public string IntroText { get; set; }
+        public string Details { get; set; }
 
         public List<Client> Clients { get; set; }
     }
