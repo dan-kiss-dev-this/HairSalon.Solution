@@ -2,7 +2,7 @@
 
 #### By _**{Dan Kiss}**_
 
-![Eau Clair's Salon MVC](./VendorManager/wwwroot/img/bakeryVendorManagementScreenshot.png)
+![Eau Clair's Salon MVC](./HairSalon/wwwroot/img/EauClairScreenshot.png)
 #### _{Eau Clair's Salon MVC is an ASP.NET Core MVC app using Entity Framework Core. It is written in C# and allows the user to connect to to a MySql database where the user will add Stylists and once a the Stylist is made a Client can be added to each Stylist.}_
 
 ## Technologies Used
