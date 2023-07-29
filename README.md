@@ -34,6 +34,26 @@ Once you have set up appsettings.json run
 
 $ dotnet restore
 
+Now add the database called dan_kiss.sql with MySQL Workbench.
+
+![Database Setup](./HairSalon/wwwroot/img/DatabaseSetup.png)
+
+In the Navigator > Administration window, select Data Import/Restore.
+
+In Import Options select Import from Self-Contained File.
+
+Navigate to the file in folder HairSalonProject called dan_kiss.sql.
+
+Under Default Schema to be Imported To, select the New button.
+
+In this case call it dan_kiss.
+Click Ok.
+Navigate to the tab called Import Progress and click Start Import at the bottom right corner of the window.
+
+After you are finished with the above steps, reopen the Navigator > Schemas tab. Right click and select Refresh All. Our new test database will appear.
+
+Now go to the HairSalon folder and run
+
 $ dotnet run
 
 As Entity Framework Core is used with the standard naming convention there is not testing added as there is not unique functions used that should be tested.
