@@ -16,3 +16,4 @@ old property group below from HairSalon.csproj
 -you also did not pass the model to the view
 -need to click apply to update data
 -DELETE FROM `dan_kiss`.`Clients` WHERE (`ClientId` = '1');
+
