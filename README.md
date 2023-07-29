@@ -52,6 +52,10 @@ Navigate to the tab called Import Progress and click Start Import at the bottom 
 
 After you are finished with the above steps, reopen the Navigator > Schemas tab. Right click and select Refresh All. Our new test database will appear.
 
+Database Tables
+
+![Database Tables](./HairSalon/wwwroot/img/DatabaseTables.jpg)
+
 Now go to the HairSalon folder and run
 
 $ dotnet run
